@@ -1,0 +1,64 @@
+Kod Źródłowy Bazy Danych
+5.1 create sql
+Tabela Odziały
+CREATE TABLE ODZIALY (
+OdziałyID int constraint ODZIAŁY_pk primary key,
+imię varchar(200),
+nazwisko varchar(200),
+stanowisko1 varchar(200),
+DATA_ZATRUD VARCHAR(200),
+ODZIAŁ VARCHAR(200),
+ID_PRACOWNICY INT foreign key references
+PRACOWNICY(PracownicyID));
+Tabela Dostawy
+CREATE TABLE DOSTAWA (
+DostawaID int constraint DOSTAWA_pk primary key,
+KURIER varchar(200),
+ODBIÓR_OSOBISTY varchar(200));
+Tabela Pracownicy
+CREATE TABLE PRACOWNICY (
+PracownicyID int constraint PRACOWNICY_pk primary key,
+imie varchar(200),
+naswisko varchar(200),
+stanowisko varchar(200));
+Tabela Klienci
+CREATE TABLE KLIENCI (
+KlienciID int constraint KLIENCI_pk primary key,
+imie varchar(200),
+naswisko varchar(200),
+adres varchar(200),
+numertelefonuV ARCHAR(200));
+• Tabela Kategoria produktu
+CREATE TABLE KATEGORIAP RODUKT U(
+Kategoria_ProduktuID int constraint KATEGORIA_PRODUKTUpkprimarykey,
+urządzenia_mobilne varchar(200) ,
+akcesoria varchar(200),
+urządzeniadomowevarchar(200),
+Podzespoły_komputerowe VARCHAR(200),
+Urządzenia_preferencyjne VARCHAR(200),
+TV_i_Audio VARCHAR(200));
+6
+Tabela Produkty
+CREATE TABLE PRODUKTY(
+ProduktyID int constraint PRODUKTY_pk primary key,
+NAZWA VARCHAR(200),
+KOD_SERYJNY VARCHAR(200),
+MODEL_URZADZENIA VARCHAR(200),
+DOSTEPNOSCI VARCHAR(200),
+IDC ENNIKINT foreignkeyreferencesCENNIK(CennikID),
+ID_KAREGOTIA_PRODUKTU INT foreign key references
+KATEGORIA_PRODUKTU(KategoriaP roduktuID));
+Tabela Cennik
+CREATE TABLE CENNIK (
+CennikID int constraint CENNIK_pk primary key,
+ID_KATEEGORIA_PRODUKTU INT foreign key references
+KATEGORIA_PRODUKTU(Kategoria_ProduktuID),
+czas_wynajecia varchar(200),
+cena int,
+ID_DOSTAWA INT foreign key references DOSTAWA(DostawaID));
+Tabela Zlecenia
+create table ZLECENIA (
+ZleceniaID INT constraint ZLECENIA_pk primary key,
+IDKLIENCIINT foreignkeyreferencesKLIENCI(KlienciID),
+ID_PRACOWNICY INT foreign key references PRACOWNICY(PracownicyID),
+ID_PRODUKTY INT foreign key references PRODUKTY(ProduktyID),);

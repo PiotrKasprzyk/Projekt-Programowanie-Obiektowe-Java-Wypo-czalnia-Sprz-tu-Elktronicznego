@@ -1,0 +1,195 @@
+ insert sql
+• Odziały
+insert into ODZIALY values (1,’Jan’,’Kowalski’,’SPRZEDAWCA’,’11-06-2009’,’KRAKOW’,10)
+insert into ODZIALY values (2,’Wojciech’,’Szczęsny’,’SPRZEDAWCA’,’31-07-2012’,’WARSZAWA’,20)
+insert into ODZIALY values (3,’Patryk’,’Nowak’,’SPRZEDAWCA’,’21-04-2021’,’RZESZÓW’,30)
+insert into ODZIALY values (4,’Paweł’,’Duda’,’KIERWONIK’,’01-04-2014’,’WARSZAWA’,40)
+insert into ODZIALY values (5,’Jakub’,’Szczęch’,’SPRZEDAWCA’,’02-10-1996’,’KIELCE’,50)
+insert into ODZIALY values (6,’Dariusz’,’Okon’,’KIERWONIK’,’15-09-1996’,’RZESZÓW’,60)
+insert into ODZIALY values (7,’Piotr’,’Kasprzyk’,’SPRZEDAWCA’,’12-06-2014’,’WROCLAW’,70)
+insert into ODZIALY values (8,’Kamil’,’Kalita’,’KSIEGOWY’,’19-02-1996’,’KRAKOW’,80)
+insert into ODZIALY values (9,’Wiktor’,’Stawarz’,’SPRZEDAWACA’,’24-01-2022’,’SZCZECIN’,90)
+insert into ODZIALY values (10,’Andrzej’,’Brożyna’,’KIERWONIK’,’10-12-2019’,’KRAKOW’,100)
+• Dostawy insert into DOSTAWA values(1,’Tak’,’Nie’)
+insert into DOSTAWA values(2,’Tak’,’Nie’)
+insert into DOSTAWA values(3,’Nie’,’Tak’)
+insert into DOSTAWA values(4,’Nie’,’Tak’)
+insert into DOSTAWA values(5,’Tak’,’Nie’)
+insert into DOSTAWA values(6,’Nie’,’Tak’)
+insert into DOSTAWA values(7,’Tak’,’Nie’)
+insert into DOSTAWA values(8,’Nie’,’Tak’)
+insert into DOSTAWA values(9,’Tak’,’Nie’)
+insert into DOSTAWA values(10,’Nie’,’Tak’)
+• Pracownicy insert into PRACOWNICY values(10,’Jan’,’Kowalski’,’SPRZEDAWCA’)
+insert into PRACOWNICY values(20,’Wojciech’,’Szczęsny’,’SPRZEDAWCA’)
+insert into PRACOWNICY values(30,’Patryk’,’Nowak’,’SPRZEDAWCA’)
+insert into PRACOWNICY values(40,’Paweł’,’Duda’,’KIERWONIK’)
+insert into PRACOWNICY values(50,’Jakub’,’Szczęch’,’SPRZEDAWCA’)
+insert into PRACOWNICY values(60,’Dariusz’,’Okon’,’KIERWONIK’)
+insert into PRACOWNICY values(70,’Piotr’,’Kasprzyk’,’SPRZEDAWCA’)
+insert into PRACOWNICY values(80,’Kamil’,’Kalita’,’KSIEGOWY’)
+insert into PRACOWNICY values(90,’Wiktor’,’Stawarz’,’SPRZEDAWACA’)
+insert into PRACOWNICY values(100,’Andrzej’,’Brożyna’,’KIERWONIK’)
+• Klienci insert into KLIENCI values(1,’Patryk’,’Nowak’,’ul.Rejtana 9/19’,’536-743-
+321’)
+insert into KLIENCI values(2,’Miłosz’,’Pruś’,’ul.Lwowskiej 45/6’,’728-543-123’)
+insert into KLIENCI values(3,’Janusz’,’Krawiec’,’ul.Bohaterów 23’,’634-513-478’)
+insert into KLIENCI values(4,’Jakub’,’Lewandowski’,’ul.Dąbrowskiego 6/23’,’345-
+342-234’)
+insert into KLIENCI values(5,’Piotr’,’Żyła’,’ul.Podkarpackiej 9c’,’553-666-231’)
+insert into KLIENCI values(6,’Kamil’,’Misienko’,’ul.Warszawska 23/4’,’543-543-
+434’)
+insert into KLIENCI values(7,’Wiktor’,’Krawczyk’,’ul.J.Matejki 44b’,’536-435-235’)
+insert into KLIENCI values(8,’Sebastian’,’Bąk’,’ul.Krakowska 12/2’,’566-232-255’)
+insert into KLIENCI values(9,’Dawid’,’Gronek’,’ul.Sucharskiego 8/1’,’235-552-523’)
+insert into KLIENCI values(10,’Daniel’,’Kowalski’,’ul.witolda 2a’,’532-325-135’)
+8
+• Kategoria produktu
+insert into
+KATEGORIAP RODUKT Uvalues(1,
+′ T elefonuKomrkowy′
+,
+′ Kabel′
+,
+′ M ikrof ala′
+,
+′ P rocesor′
+,
+′ Monitor′
+,
+′ T elewizor′
+)
+insert into
+KATEGORIAP RODUKT Uvalues(2,
+′ T ablet′
+,
+′ U chwytdosmartfona′
+,
+′ opiekacz′
+,
+′ Kartagraf iczna′
+,
+′ Drukarka′
+,
+′ KinoDomowe′
+)
+insert into
+KATEGORIAP RODUKT Uvalues(3,
+′ Smartwatch′
+,
+′ adowrkaindukcyjna′
+,
+′
+czajnikelektryczny′
+,
+′ P ytagwna′
+,
+′ Gosniki′
+,
+′ Soundbar′
+)
+insert into
+KATEGORIAP RODUKT Uvalues(4,
+′ Czytnikebook′
+,
+′
+suchawkibezprzewodoe′
+,
+′ P ralka′
+,
+′ Zasilacz′
+,
+′ Klawiatura′
+,
+′ Kolumnygonikowe′
+)
+insert into KATEGORIAP RODUKT Uvalues(5,
+′ P owerbank′
+,
+′ Opaskinaramiene′
+,
+′ F rytkownicaBeztuszczowa′
+,
+′ obudowadokomputera′
+,
+′ M ikrofony′
+,
+′ P rojektor′
+)
+• Produkty insert into PRODUKTY values(1,’Intel’,’BX8071512600K’,’i5-12600k’,’Tak’,1,1)
+insert into PRODUKTY values(2,’SilverMonkey’,’SMA035’,’USB Typ-C’,’Tak’,2,1)
+insert into PRODUKTY values(3,’Amica’,’AMGF20E1S’,’AMGF20E1S’,’Tak’,3,1)
+insert into PRODUKTY values(4,’Apple’,’MQ0T3PX/A’,’Iphone 14 pro’,’Nie’,4,1)
+insert into PRODUKTY values(5,’Gigabyte’,’653508’,’G24F’,’Tak’,5,1) insert into
+PRODUKTY values(6,’Samsung’,’SM-T220NZSAEUE’,’TAB A7 Lite’,’Nie’,6,2)
+insert into PRODUKTY values(7,’RAVEN’,’1165741’,’EPI004’,’Nie’,7,2)
+insert into PRODUKTY values(8,’Inno3D GeForce’,’ N40903-246XX-18332989’,’RTX
+4090 X3 OC 24GB GDDR6X’,’Tak’,8,2)
+insert into PRODUKTY values(9,’Brother’,’HL1223WEAP2’,’ HL-1223WE’,’Tak’,9,2)
+insert into PRODUKTY values(10,’Samsung’,’HW-B650/EN’,’HW-B650’,’Tak’,10,2)
+insert into PRODUKTY values(11,’Green Cell’,’QIGC01’,’Indukcyjna AirJuice
+15W’,’Tak’,10,3)
+insert into PRODUKTY values(12,’Bosch’,’1183088’,’Styline TWK8613P’,’Tak’,9,3)
+insert into PRODUKTY values(13,’Gigabyte’,’709172’,’B660M DS3H DDR4’,’Nie’,8,3)
+insert into PRODUKTY values(14,’Creative’,’51MF1680AA000’,’2.0 Pebble’,’Tak’,7,3)
+insert into PRODUKTY values(15,’Samsung ’,’HW-B650/EN’,’ HW-B650’,’Nie’,6,3)
+insert into PRODUKTY values(16,’Apple’,’MQD83ZM/A’,’AirPods Pro (2. generacji)’,’Tak’,5,4)
+insert into PRODUKTY values(17,’Whirlpool’,’1267950’,’FFB 9469 BSV PL’,’Nie’,4,4)
+insert into PRODUKTY values(18,’SilentiumPC’,’SPC267’,’Vero L3 700W 80 Plus
+Bronze’,’Nie’,3,4)
+insert into PRODUKTY values(19,’Razer’,’RZ03-03380100-R3M1’,’Ornata V2’,’Nie’,2,4)
+insert into PRODUKTY values(20,’Edifier’,’ 673996’,’R2850DB Bluetooth’,’Tak’,1,4)
+insert into PRODUKTY values(21,’Spigen’,’000EM21193’,’Uniwersalna Opaska
+Sportowa na Ramię A700’,’Tak’,2,5)
+insert into PRODUKTY values(22,’XIAOMI’,’447711’,’Mi Smart MAF02 Air Fryer
+(Wi-Fi)’,’nie’,2,5)
+insert into PRODUKTY values(23,’be quiet!’,’BGW37’,’Pure Base 500DX Black’,’Tak’,7,5)
+insert into PRODUKTY values(24,’SPC Gear’,’SPG053’,’SM950’,’Nie’,7,5)
+insert into PRODUKTY values(25,’XGIMI’,’ Halo+’,’Halo+’,’Tak’,1,5)
+insert into PRODUKTY values (26, ’Samsung’ ,’QE55Q77BATXXH ’,’QE55Q77B’
+,’Tak’,2,1 insert into PRODUKTY values(27,’Xblitz ’,’1087155’,’G400’,’nie’,2,2)
+insert into PRODUKTY values(28,’Xiaomi ’,’649104’,’Mi Band 6’,’Tak’,7,3)
+insert into PRODUKTY values(29,’Onyx ’,’6949710307594’,’Note 5’,’Nie’,7,4)
+insert into PRODUKTY values(30,’Green Cell’,’PBGC03’,’PowerPlay20 20000mAh
+(USB-C, PD 18W, Q.C. 3.0)’,’Tak’,1,5)
+9
+• Cennik insert into CENNIK values(1,5,’96h’,800,1)
+insert into CENNIK values(2,1,’48h’,400,3)
+insert into CENNIK values(3,5,’12h’,100,2)
+insert into CENNIK values(4,3,’72h’,600,5)
+insert into CENNIK values(5,1,’48h’,400,6)
+insert into CENNIK values(6,4,’192h’,1600,4)
+insert into CENNIK values(7,2,’18h’,75,10)
+insert into CENNIK values(8,3,’48h’,400,7)
+insert into CENNIK values(9,2,’72h’,600,9)
+insert into CENNIK values(10,1,’6h’,25,8)
+• Zlecenia insert into ZLECENIA values(1,1,10,1)
+insert into ZLECENIA values(2,3,30,3)
+insert into ZLECENIA values(3,2,10,5)
+insert into ZLECENIA values(4,5,30,7)
+insert into ZLECENIA values(5,4,40,9)
+insert into ZLECENIA values(6,7,30,11)
+insert into ZLECENIA values(7,6,60,13)
+insert into ZLECENIA values(8,9,40,15)
+insert into ZLECENIA values(9,7,40,17)
+insert into ZLECENIA values(10,6,60,19)
+insert into ZLECENIA values(11,10,50,21)
+insert into ZLECENIA values(12,5,20,23)
+insert into ZLECENIA values(13,1,50,25)
+insert into ZLECENIA values(14,1,60,27)
+insert into ZLECENIA values(15,2,20,29)
+insert into ZLECENIA values(16,6,50,2)
+insert into ZLECENIA values(17,8,80,4)
+insert into ZLECENIA values(18,8,70,6)
+insert into ZLECENIA values(19,2,20,8)
+insert into ZLECENIA values(20,1,10,10)
+insert into ZLECENIA values(21,4,70,12)
+insert into ZLECENIA values(22,3,80,14)
+insert into ZLECENIA values(23,9,80,16)
+insert into ZLECENIA values(24,10,70,18)
+insert into ZLECENIA values(25,1,100,20)
+insert into ZLECENIA values(26,2,90,22)
+insert into ZLECENIA values(27,8,100,24)
+insert into ZLECENIA values(28,10,90,26)
+insert into ZLECENIA values(29,1,100,28)
+insert into ZLECENIA values(30,2,90,30)
